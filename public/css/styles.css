@@ -1,0 +1,171 @@
+
+body {
+  background-color: #E8ECEF;
+  padding: 180px 0;
+  min-width: 510px;
+}
+
+.display-3{
+  margin-top: 20px;
+}
+
+.button-delete{
+ padding: 15px;
+ border-radius: 8px;
+ margin-bottom: 10px;
+ background-color: rgb(212, 55, 24);
+ box-shadow: 5px 5px 5px rgba(194, 192, 192, 0.785);
+}
+.button-delete:hover{
+  background-color: rgb(176, 32, 3);;
+}
+
+.failure-text{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.failure-a{
+  max-width: 197px;
+  min-width: 197px;
+  text-align: left;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 3px;
+}
+
+.button-logout{
+  text-decoration: none;
+  font-size: x-large;
+  color: #000;
+  width: 100%;
+  display: block;
+  border-radius: 7px;
+  border-width: 0px;
+  background-color:  #E8ECEF;
+  text-align: left;
+}
+
+.text-center{
+  overflow: hidden;
+  resize: none;
+}
+
+.button-logout:hover{
+  background-color: rgba(216, 212, 212, 0.952);
+}
+
+.user-name{
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
+  color: #605a4a;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color:#eeae1bea;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+/*   color enojo: background-color: #6e0606f9;*/  
+/*   color indeterminado: background-color: #554093f9;*/   
+/*   color felicidad:  background-color:#eeae1bea;*/    
+/*   color amor:  background-color: #e14d4df9;*/
+/*   color tristeza:   background-color: #3560b6d4;*/
+/*   color risa:  background-color: #d1d34df9; */
+.cool-image{
+  width: 400px;
+  height:200px;
+  margin-bottom: 23px;
+}
+
+.display-3{
+  margin-bottom: 23px;
+}
+
+.jumbotron{
+   width: 100%;
+}
+.navbar-toggler-real{
+  background-color: rgba(216, 163, 38, 0.618);
+  height: 68px;
+  padding-bottom: 10px;
+  width: 72px;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.navbar-toggler-real:hover{
+  background-color:  rgba(156, 117, 25, 0.618);;
+}
+
+.traslator-home{
+  height: 68px;
+  width: 72px;
+  border-radius: 100%;
+}
+
+header{
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+}
+.form-group{
+  margin-bottom: 0.8rem
+}
+
+a{
+  text-decoration: none;
+  font-size: x-large;
+  color: #000;
+  width: 100%;
+  display: block;
+  border-radius: 7px;
+}
+a:hover{
+    background-color: rgba(216, 212, 212, 0.952);
+}
+.traslator-home:hover{
+  background-color: rgba(216, 212, 212, 0.952);
+  cursor: pointer;
+}
+.navbar-toggler{
+  width: 80px;
+}
+
+.navbar-nav{
+  margin-top: 10px;
+}
+.collapse{
+  position: absolute;
+  top:100px;
+  right: 0;
+  padding-right: 30px;
+}
+.navbar-collapse{
+  position: absolute;
+  top:100px;
+  right: 0;
+  padding-right: 30px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.form-control{
+  margin-bottom: 16px;
+}

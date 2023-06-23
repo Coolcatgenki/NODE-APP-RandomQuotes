@@ -1,0 +1,27 @@
+<%- include('../partials/header-loged') %>
+
+  <div class="jumbotron centered">
+    <div class="container">
+    <h1 class="display-3">Secrets</h1>
+    <p class="submit-text">Don't keep your grace, share it!</p>
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <textarea onkeyup="textAreaAdjust(this)" id="text-super" class="form-control text-center" type="text" name="content" placeholder="What's your Quote?"></textarea>
+        <label for="select">What will be the mood of the quote?</label>
+        <select name="select">
+          <option value="1">Indeterminate</option>
+          <option value="2">Happy</option>
+          <option value="3">Sad</option>
+          <option value="4">Angry</option>
+          <option value="5">Funny</option>
+          <option value="6">In love</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+  </div>
+  </div>
+<%- include('../partials/footer') %>

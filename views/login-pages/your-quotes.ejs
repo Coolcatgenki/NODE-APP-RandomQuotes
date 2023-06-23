@@ -1,0 +1,29 @@
+<%- include('../partials/header-loged') %>
+
+<div class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-3">Your Quotes!</h1>
+      <%Secrets.forEach(function(secret){%> 
+          <p class="secret-text" style="background-color: <%=secret.mood%>">Random quote: <%=secret.content%> <br> <br><%=secret.year%>/<%=secret.month%>/<%=secret.day%> at <%=secret.hour%>:<%=secret.minutes%></p>
+          <form action="/deleateQuote" method="post">
+            <button type="submit" name="idQuote" class="button-delete" value="<%=secret._id%>">Delete Quote</button>
+          </form>
+    <%})%>
+      <hr>
+      <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Quote</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('../partials/footer') %>

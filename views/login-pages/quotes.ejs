@@ -1,0 +1,15 @@
+<%- include('../partials/header-loged') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-3">Everyone's Quotes</h1>
+    <%Secrets.forEach(function(secret){%>  
+      <p class="secret-text" style="background-color: <%=secret.mood%>">Random quote: <%=secret.content%> <br> <br> <%=secret.year%>/<%=secret.month%>/<%=secret.day%> <br>at <%=secret.hour%>:<%=secret.minutes%></p>
+      <p class="user-name">By: <%=secret.username%></p>
+  <%})%>
+    <hr>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Quote</a>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>
