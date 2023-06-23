@@ -12,6 +12,8 @@ const findOrCreate = require('mongoose-findorcreate');
 const app = express();
 const PORT= process.env.PORT || 4000;
  
+app.set('trust proxy', 1);
+
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
