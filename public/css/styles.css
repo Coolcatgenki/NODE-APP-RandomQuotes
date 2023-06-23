@@ -1,6 +1,6 @@
 
 body {
-  background-color: #E8ECEF;
+  background-image: -webkit-linear-gradient(-40deg, #630a9340 60%, white 50%);
   padding: 180px 0;
   min-width: 510px;
 }
@@ -44,6 +44,18 @@ body {
   border-width: 0px;
   background-color:  #E8ECEF;
   text-align: left;
+}
+
+#register-login-b{
+  width: 30%;
+}
+
+.container-cool{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-center{
