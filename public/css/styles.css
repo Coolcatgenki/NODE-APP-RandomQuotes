@@ -5,6 +5,14 @@ body {
   min-width: 510px;
 }
 
+.container-submit{
+  position:absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 150px;
+}
+
 .display-3{
   margin-top: 20px;
 }
@@ -76,6 +84,7 @@ body {
 .centered {
     padding-top: 200px;
     text-align: center;
+    position: relative;
 }
 
 .secret-text {
