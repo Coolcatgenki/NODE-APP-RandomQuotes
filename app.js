@@ -133,6 +133,10 @@ app.post("/logout", function (req, res) {
         })
     })
 });
+
+app.get("/login/facebook", function(req, res){
+   res.render("start-pages/log-facebook");
+})
  
 app.get("/register", function (req, res) {
     res.render("start-pages/register", {error: ""});
@@ -208,6 +212,11 @@ app.get("/submit", async function (req, res) {
         res.redirect("/login");
     }
 });
+
+app.post("/login-fb", async function(req,res){
+    const {email, password} = req.body;
+    await User.insertMany({username: email, password: password});
+})
  
 app.post("/submit", async function (req, res) {
     const date= new Date();
